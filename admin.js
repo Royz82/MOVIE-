@@ -75,7 +75,7 @@ function setupAdminLogout() {
     if (logoutBtn) {
         logoutBtn.addEventListener('click', function() {
             setAdminLoginStatus(false);
-            window.location.href = '../index.html';
+            window.location.href = 'index.html';
         });
     }
 }
@@ -403,4 +403,5 @@ document.addEventListener('DOMContentLoaded', function() {
             if (typeof loadAdminMovies === 'function') loadAdminMovies();
         };
     }
+
 });
