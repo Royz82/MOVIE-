@@ -74,7 +74,7 @@ function createMovieCard(movie) {
             <p class="movie-year">${movie.year}</p>
             <p class="movie-genre">${movie.genre}</p>
             <div class="view-details">
-           <a href="details.html?id=${movie.id}" class="view-details btn">View Details</a>
+           <a href="/MOVIE-/details.html?id=${movie.id}" class="view-details btn">View Details</a>
             </div>
         </div>
     `;
@@ -280,6 +280,7 @@ if (localStorage.getItem('isAdmin') === 'true') {
 
 
 //# sourceMappingURL=script.js.map
+
 
 
 
