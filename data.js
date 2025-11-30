@@ -50,7 +50,7 @@ let movies = [
         genre: "Adventure, Drama",
         rating: 4.7,
         description: "Tanjiro Kamado and other members of the Demon Slayer Corps find themselves in an epic battle at Infinity Castle.",
-        poster: "https://cosmicvaults.com/wp-content/uploads/2025/03/gw-Blogs.jpg"
+        poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx71OocEfiBFIghEySwiogk8z9SuwHwmKn-L7oKOxscMGTMMxZPetrJd6Vrf8cgZIwe6EPavioegnKlI2jE58m4TtWNJf--NQOiFbfQQE&s"
     },
 	{
         id: 6,
@@ -97,4 +97,5 @@ let movies = [
 // Check if movies exist in localStorage, if not, initialize with sample data
 if (!localStorage.getItem('movies')) {
     localStorage.setItem('movies', JSON.stringify(movies));
+
 }
