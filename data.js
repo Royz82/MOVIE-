@@ -50,7 +50,7 @@ let movies = [
         genre: "Adventure, Drama",
         rating: 4.7,
         description: "Tanjiro Kamado and other members of the Demon Slayer Corps find themselves in an epic battle at Infinity Castle.",
-        poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx71OocEfiBFIghEySwiogk8z9SuwHwmKn-L7oKOxscMGTMMxZPetrJd6Vrf8cgZIwe6EPavioegnKlI2jE58m4TtWNJf--NQOiFbfQQE&s"
+        poster: "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Kimetsu_No_Yaiba_Mugen_Jyo-hen_theatrical_poster.jpg/250px-Kimetsu_No_Yaiba_Mugen_Jyo-hen_theatrical_poster.jpg"
     },
 	{
         id: 6,
@@ -99,3 +99,4 @@ if (!localStorage.getItem('movies')) {
     localStorage.setItem('movies', JSON.stringify(movies));
 
 }
+
